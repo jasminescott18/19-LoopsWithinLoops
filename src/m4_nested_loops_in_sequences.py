@@ -117,7 +117,7 @@ def multiply_numbers(sequence_of_lists):
        [FYI: This 'can be multiplied ...' is an example of DUCK TYPING.]
     """
 
-    for i in range (len(sequence_of_lists)):
+    for i in range(len(sequence_of_lists)):
         sequence = sequence_of_lists[i]
         for j in range(len(sequence)):
             sequence[j] = sequence[j] * (i + 1)
